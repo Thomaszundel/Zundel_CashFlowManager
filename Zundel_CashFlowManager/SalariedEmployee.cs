@@ -39,8 +39,8 @@ namespace Zundel_CashFlowManager
         {
             return "Salaried employee: " + FirstName +" "+ LastName +
                    "\nSSN: " + SSN +
-                   "\nWeekly Salary: " + WeeklySalary +
-                   "\nEarned: " + WeeklySalary;
+                   "\nWeekly Salary: " + WeeklySalary.ToString("C") +
+                   "\nEarned: " + WeeklySalary.ToString("C");
 
         }
 

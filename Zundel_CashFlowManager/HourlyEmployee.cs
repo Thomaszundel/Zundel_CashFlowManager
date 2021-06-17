@@ -59,9 +59,9 @@ namespace Zundel_CashFlowManager
 
             return "Hourly employee: " + FirstName + " " + LastName +
                    "\nSSN: " + SSN +
-                   "\nHourly wage Salary: " + HourlyWage +
+                   "\nHourly wage Salary: " + HourlyWage.ToString("C") +
                    "\nHours Worked: " + HoursWorked +
-                   "\nEarned: " + Earnings();
+                   "\nEarned: " + Earnings().ToString("C");
                 
         }
     }

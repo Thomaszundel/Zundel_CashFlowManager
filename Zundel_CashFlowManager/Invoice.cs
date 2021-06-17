@@ -62,8 +62,8 @@ namespace Zundel_CashFlowManager
             "Invoice: " + RandomNum() +"_"+PartNumber+
             "\nQuantity: " + Quantity +
             "\nPart Description: " + PartDescription +
-            "\nUnit Price: " + Price +
-            "\nExtended Price: " + Total();
+            "\nUnit Price: " + Price.ToString("C") +
+            "\nExtended Price: " + Total().ToString("C");
         }
 
 

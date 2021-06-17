@@ -66,10 +66,10 @@ namespace Zundel_CashFlowManager
                                     break;
                             }
                         }
-                        Console.WriteLine("\nTotal Weekly Payout: " + total +
-                                          "\nCategory Breakdown:\nInvoices: " + invoiceTotal +
-                                          "\nSalaried Payroll: " + salariedTotal +
-                                          "\nHourly Payroll: " + hourlyTotal+"\n");
+                        Console.WriteLine("\nTotal Weekly Payout: " + total.ToString("C") +
+                                          "\nCategory Breakdown:\nInvoices: " + invoiceTotal.ToString("C") +
+                                          "\nSalaried Payroll: " + salariedTotal.ToString("C") +
+                                          "\nHourly Payroll: " + hourlyTotal.ToString("C") + "\n");
                         break;
                     case 5:
                         keepGoing = false;
